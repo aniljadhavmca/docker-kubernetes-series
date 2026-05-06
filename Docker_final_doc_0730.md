@@ -1,8 +1,6 @@
-     ===============================================================================================================
-
+===============================================================================================================
                                                  ######   DOCKER  ###########
-    ========================================================================================================
-
+========================================================================================================
 
 MONOLITHIC: Deploying monolithic applications is more straightforward than deploying microservices. Developers install the entire application code base and dependencies in a single environment.
 
@@ -18,8 +16,6 @@ FLEXIBLE
 COST 
 MAINTAINANCE
 EASY CONTROL
-
-
 
 
 ## ----- Docker overview ----------##
@@ -131,8 +127,6 @@ ps -ef | wc -l #to know number of processors request running backend
 
 
 
-
-
 #### how to start container#####
 
 docker start <containerid>
@@ -174,10 +168,6 @@ docker rm -f <container id> delete running and stopped container
 docker container prune -- delete all stopped containers 
 
 docker rm -f $(docker ps -aq) ---delete all running containers 
-
-
-
-
 
 
 
