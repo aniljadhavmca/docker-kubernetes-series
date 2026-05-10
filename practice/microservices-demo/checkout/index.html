@@ -2,11 +2,79 @@
 <html>
 <head>
   <title>Checkout Service</title>
-</head>
-<body>
-  <h1>Checkout Service</h1>
-  <h3>Checkout Summary</h3>
 
-  <p>Total Amount: $200</p>
+  <style>
+    body{
+      margin:0;
+      font-family:Arial;
+      background:#ecfeff;
+    }
+
+    .header{
+      background:#0f766e;
+      color:white;
+      padding:20px;
+      font-size:28px;
+      font-weight:bold;
+    }
+
+    .container{
+      padding:40px;
+    }
+
+    .card{
+      background:white;
+      padding:40px;
+      border-radius:10px;
+      box-shadow:0 0 10px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+
+    input{
+      width:80%;
+      padding:12px;
+      margin:10px;
+      border:1px solid #ddd;
+      border-radius:8px;
+    }
+
+    button{
+      background:#16a34a;
+      color:white;
+      border:none;
+      padding:12px 20px;
+      border-radius:8px;
+      cursor:pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="header">
+  Checkout Service
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Payment Details</h2>
+
+<input type="text" placeholder="Card Number"><br>
+
+<input type="text" placeholder="Card Holder Name"><br>
+
+<input type="text" placeholder="Expiry Date"><br>
+
+<button>
+  Pay Now
+</button>
+
+</div>
+
+</div>
+
 </body>
 </html>
