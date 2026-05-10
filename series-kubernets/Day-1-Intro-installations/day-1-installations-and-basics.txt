@@ -106,10 +106,20 @@ sudo mv ./kubectl /usr/local/bin/kubectl
       --region us-east-1 \
    --node-type t2.small \
 
+
+eksctl create cluster \
+--name demo-cluster \
+--region us-east-1 \
+--nodegroup-name workers \
+--node-type t3.medium \
+--nodes 2
+
 # after create cluster to update it
  aws eks update-kubeconfig --region <region> --name <cluster name>
 
- ex: aws eks update-kubeconfig --region ap-south-1 --name naresh
+ ex1: aws eks update-kubeconfig --region ap-south-1 --name naresh
+
+ ex2: aws eks update-kubeconfig --region us-east-1 --name naresh
 
  # To delete the EKS clsuter 
     
