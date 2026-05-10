@@ -19,6 +19,8 @@ Each service runs independently inside Kubernetes pods.
 
 # Architecture
 
+![EKS Microservices Demo](../../images/EKS-micro-services-demo.png)
+
 ```text
 Internet
    ↓
