@@ -1,9 +1,0 @@
-Real-Time Application Architecture on Kubernetes with AWS RDS
-
-This diagram explains a production-ready microservices architecture using Kubernetes and AWS RDS.
-
-- Users access the application through a LoadBalancer
-- Frontend and Backend applications run as scalable Kubernetes Pods
-- ClusterIP enables secure internal pod-to-pod communication
-- Backend services connect securely to AWS RDS over VPC/SSL
-- AWS RDS handles database replication, backups, failover, and high availability automatically
