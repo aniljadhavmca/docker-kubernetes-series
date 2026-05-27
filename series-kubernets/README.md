@@ -2,8 +2,9 @@
 
 # ☸️ Kubernetes Master Repository ☸️
 
-<img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png" width="180"/>
-
+<p align="center">
+  <img src="K8S.png" alt="Microservices Architecture" width="100%">
+</p>
 ### 🚀 Complete Kubernetes Learning Repository  
 ### 📘 From Beginner to Advanced  
 ### ⚡ Real-Time DevOps & Cloud Native Concepts  
